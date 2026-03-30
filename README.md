@@ -1,5 +1,8 @@
 # churn-prediction-ml
 
+![Model Performance (ROC Curve)](02_curva_roc_final.png)
+
+![Feature Importance (XGBoost)](03_feature_importance_final.png)
 
 
 # Customer Churn Prediction
