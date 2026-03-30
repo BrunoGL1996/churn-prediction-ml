@@ -2,12 +2,17 @@
 
 ![Model Performance (ROC Curve)](02_curva_roc_final.png)
 
-ROC Curve (Receiver Operating Characteristic)
-"The ROC Curve is a performance measurement for classification problems at various threshold settings. The AUC (Area Under the Curve) of 0.81 indicates that our model has a high capability of distinguishing between customers who will churn and those who will stay. An AUC above 0.80 is considered an excellent result for business-driven predictive models, ensuring that our retention strategies are targeted at the right audience.
+The ROC Curve shows how well the model distinguishes between customers who churn and those who stay.
+
+With an AUC of 0.81, the model has a strong ability to separate both groups, which makes it useful for targeting retention strategies more effectively.
 
 ![Feature Importance (XGBoost)](03_feature_importance_final.png)
 
-The Feature Importance plot identifies which variables most influenced the model's predictions. In this case, 'Contract' is the top predictor, suggesting that month-to-month contracts are the primary driver for churn. Other significant factors include 'Internet Service' and 'Online Security'. These insights allow the business to focus on high-impact interventions, such as incentivizing long-term contracts or improving technical support perceived value.
+The Feature Importance plot highlights which variables had the biggest impact on the model.
+
+'Contract' stands out as the main driver, indicating that customers on month-to-month plans are more likely to churn.
+
+Other relevant factors include 'Internet Service' and 'Online Security', reinforcing the importance of customer experience and service structure.
 
 
 # Customer Churn Prediction
